@@ -17,6 +17,15 @@
 
         }
 
+        header {
+            font-size: 50px;
+            font-weight: bolder;
+
+            position: relative;
+            text-align: center;
+            background: #f9f9f9;
+        }
+
         ul,
         ol {
             list-style: none;
@@ -48,6 +57,8 @@
             margin: 0 0 40px 0;
             text-align: center;
         }
+
+
 
         .sc01 {
             padding: 100px 0;
@@ -110,11 +121,51 @@
             text-align: center;
 
         }
+
+        footer p {
+            font-size: 10px;
+            text-align: left;
+        }
+
+        nav {
+            position: absolute;
+            width: 0 auto;
+            height: 100px;
+            padding: 0 10px 0 10px;
+            gap: 30px;
+        }
+
+        nav button {
+            font-size: 10px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            float: left;
+            margin-left: 100px;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
     </style>
 </head>
 
+
 <body>
-    <section class="sc01">
+    <header>레이아웃 화면 분활</header>
+
+    <nav>
+        <button><a href="index.html">뒤로가기</a></button>
+        <ul>
+            <li><a href="">레이아웃 1</a></li>
+            <li><a href="">레이아웃 2</a></li>
+            <li><a href="">레이아웃 3</a></li>
+            <li><a href="">레이아웃 4</a></li>
+            <li><a href="">레이아웃 5</a></li>
+        </ul>
+    </nav>
+    <section id="sc0" class="sc01">
         <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quos alias eum quis deleniti maxime fugiat
             rerum cumque!</p>
@@ -168,6 +219,9 @@
             <div class="box">06</div>
         </div>
     </section>
+    <footer>
+        <p>레이아웃 화면 분활</p>
+    </footer>
 
 </body>
 
